@@ -1,0 +1,34 @@
+@import "../../lib/styles/index.scss";
+
+.bookshelf {
+  .bookshelf-options-panel {
+    display: flex;
+  }
+
+  .bookshelf-book-selection {
+    display: flex;
+
+    .book-card {
+      border: 2px solid $primary-color;
+      border-radius: 4px;
+      margin: $gutter-half;
+      min-width: 300px;
+      max-width: 300px;
+      width: 100%;
+
+      .book-title {
+        margin: $gutter-half;
+      }
+
+      .book-author-info {
+        margin: $gutter-half;
+      }
+
+      .book-additional-info {
+        .download-count {
+          margin: $gutter-half;
+        }
+      }
+    }
+  }
+}

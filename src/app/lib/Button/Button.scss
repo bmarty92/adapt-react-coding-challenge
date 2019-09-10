@@ -1,0 +1,19 @@
+@import "../styles/index.scss";
+
+.button {
+  width: 300px;
+  min-height: 40px;
+  background: $purple;
+  border-radius: $gutter-half;
+  margin: 0 $gutter-quarter;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 24px;
+  border: none;
+  color: $secondary-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+}
